@@ -34,8 +34,7 @@
       ادامه کار با وب سایت ، لطفاً مطمئن شوید که <span class="jsred">جاوا اسکریپت</span> را فعال کرده اید.
     </p>
     <p>
-        DDoS protection by CleanTalk
-welcome@cleantalk.org
+        DDoS protection Created by <a href="https://github.com/attackeralireza/" class="git" target="_blank">AttackerAlireza</a>
     </p>
     <!-- Script -->
     <script src="assets/js/main.js"></script>
