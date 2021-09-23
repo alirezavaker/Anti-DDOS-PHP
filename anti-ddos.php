@@ -27,8 +27,11 @@
     </div>
     
     <!-- Timer -->
-        <div id=""></div>
-        <div id=""></div>
+        <div class="timer">
+            <span id="minutes"></span>
+            <span id="seconds"></span>
+        </div>
+        
     <!-- Timer -->
 
     <!-- Loading -->
@@ -37,7 +40,7 @@
     <!-- آدزس همین صفحه یعنی DDOS -->
     <a href="#" id="link_pass"> ادامه </a>
     <p>
-      یا بعد از 5 ثانیه به صورت خودکار به صفحه درخواستی هدایت می شوید. برای
+      یا بعد از <span id="timeredirect"></span> ثانیه به صورت خودکار به صفحه درخواستی هدایت می شوید. برای
       ادامه کار با وب سایت ، لطفاً مطمئن شوید که <span class="jsred">جاوا اسکریپت</span> را فعال کرده اید.
     </p>
     <p>
