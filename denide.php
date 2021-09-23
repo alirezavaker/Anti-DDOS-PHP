@@ -1,3 +1,4 @@
+<?php include_once 'core/count-view-user.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,18 +14,24 @@
 
     <!-- Loading -->
     <h3 class="sub_title">IP : <span id="r_ip"><?php $_SERVER['REMOTE_ADDR']; ?></span></h3>
-    <p>لطفاً برای گذراندن مرحله حفاظتی بر روی لینک زیر را کلیک کنید</p>
-    <a href="#" id="link_pass"> link </a>
+     
+    <P>
+        به دلیل ارسال بیش از حد درخواست به سمت سورر به صورت موقت برای مدت معینی مسدود شده اید.
+    </P>
     <p>
-        یا بعد از 5 ثانیه به صورت خودکار به صفحه درخواستی هدایت می شوید. برای
-        ادامه کار با وب سایت ، لطفاً مطمئن شوید که <span class="jsred">جاوا اسکریپت</span> را فعال کرده اید.
+        لطفا بعدا تلاش کنید.
     </p>
+    <div class="timer">
+        <span id="minutes"></span>
+        <span id="seconds"></span>
+    </div>
     <p>
+         
         DDoS protection Created by <a href="https://github.com/attackeralireza/" class="git" target="_blank">AttackerAlireza</a>
     </p>
     <p>License MIT - copy right - <span id="year"></span></p>
     <!-- Script -->
-    <script src="assets/js/main.js"></script>
+ 
     <script src="assets/js/redirect.js"></script>
 </body>
 

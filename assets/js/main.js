@@ -2,7 +2,7 @@ let time = new Date();
 let t = time.getFullYear();
 document.getElementById("year").innerHTML = t;
 // timer
-document.getElementById('timeredirect').innerHTML = 5;
+document.getElementById("timeredirect").innerHTML = 5;
 var minutesLabel = document.getElementById("minutes");
 var secondsLabel = document.getElementById("seconds");
 var totalSeconds = 0;
@@ -24,12 +24,11 @@ function pad(val) {
 }
 // redirect user
 
-// // آدرس صفحه ای که میخواهید به آن هدایت شود را اینجا وارد کنید.
-// let indexPage = "https://google.com";
-// function redirectPage() {
-//     setInterval(() => {
-//       window.location = indexPage;
-//     }, 5000);
-//   }
-//   redirectPage();
-   
+// آدرس صفحه ای که میخواهید به آن هدایت شود را اینجا وارد کنید.
+let indexPage = "/index.php";
+function redirectPage() {
+  setInterval(() => {
+    window.location = indexPage;
+  }, 5000);
+}
+redirectPage();
