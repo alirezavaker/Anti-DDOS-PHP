@@ -16,3 +16,7 @@ define("CONTROL_LOCK_DIR", SCRIPT_TMP_DIR . "/lock");
 define("CONTROL_LOCK_FILE", CONTROL_LOCK_DIR . "/" . md5(USER_IP));
 // مسیز ریدایرکت کاربر
 define('REDIRECT_URL_DENIDE', 'denide.php');
+
+// ساخت دایرکتوری
+@mkdir(CONTROL_LOCK_DIR);
+@mkdir(SCRIPT_TMP_DIR);
