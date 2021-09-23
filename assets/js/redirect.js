@@ -10,7 +10,7 @@ function redirectPage() {
   }
 }
 //timer
- 
+
 let minutesLabel = document.getElementById("minutes");
 let secondsLabel = document.getElementById("seconds");
 let totalSeconds = 0;
@@ -30,9 +30,3 @@ function pad(val) {
     return valString;
   }
 }
-// session start
-let i = 1;
-
-document.addEventListener("DOMContentLoaded", function() {
-  sessionStorage.setItem('hint', i)
-});

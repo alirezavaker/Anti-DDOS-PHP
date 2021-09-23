@@ -1,4 +1,4 @@
-<?php include_once 'core/count-view-user.php'; ?>
+ 
 <!DOCTYPE html>
 <html lang="en">
 

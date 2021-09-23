@@ -1,4 +1,4 @@
-<?php include_once 'core/anti_ddos_main.php'; ?>
+ 
 <!DOCTYPE html>
 <html lang="en">
   <head>
