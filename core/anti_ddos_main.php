@@ -8,7 +8,7 @@ define("CONTROL_REQ_TIMEOUT", 2);
 // ثانیه ها برای مجازات کاربرانی که در انجام درخواست ها بیش از حد مجاز عمل کرده اند
 define("CONTROL_BAN_TIME", 4);
 // دایرکتوری قابل نوشتن برای نگهداری داده های اسکریپت
-define("SCRIPT_TMP_DIR", SCRIPT_ROOT . "/core");
+define("SCRIPT_TMP_DIR", SCRIPT_ROOT . "/repository");
 // !! نیازی به ویرایش در زیر این خط ندارید
 define("USER_IP", getRealIpAddr());
 define("CONTROL_DB", SCRIPT_TMP_DIR . "/log");
