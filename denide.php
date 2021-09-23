@@ -22,8 +22,10 @@
     <p>
         DDoS protection Created by <a href="https://github.com/attackeralireza/" class="git" target="_blank">AttackerAlireza</a>
     </p>
+    <p>License MIT - copy right - <span id="year"></span></p>
     <!-- Script -->
-    <script src="assets/denide.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/redirect.js"></script>
 </body>
 
 </html>

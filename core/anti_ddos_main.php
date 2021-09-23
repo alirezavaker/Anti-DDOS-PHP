@@ -9,7 +9,7 @@ define("CONTROL_REQ_TIMEOUT", 2);
 define("CONTROL_BAN_TIME", 4);
 // دایرکتوری قابل نوشتن برای نگهداری داده های اسکریپت
 define("SCRIPT_TMP_DIR", SCRIPT_ROOT . "/repository");
-// !! نیازی به ویرایش در زیر این خط ندارید
+// نیازی به ویرایش در زیر این خط ندارید
 define("USER_IP", getRealIpAddr());
 define("CONTROL_DB", SCRIPT_TMP_DIR . "/log");
 define("CONTROL_LOCK_DIR", SCRIPT_TMP_DIR . "/lock");
@@ -85,10 +85,12 @@ function antiflood_countaccess()
         $fh = fopen(CONTROL_LOCK_FILE, "w");
         fwrite($fh, USER_IP);
         fclose($fh);
-    }
+    } 
+
     //نوشتن جدول کنترل به روز شده
     $fh = fopen(CONTROL_DB, "w");
     fwrite($fh, serialize($control));
     fclose($fh);
+    
 }
 antiflood_countaccess();
